@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AvalancheSystem
 
-# Run and deploy your AI Studio app
+**Student Management Interface**
 
-This contains everything you need to run your app locally.
+A modern, responsive web application designed for efficient student data administration. Built with performance and scalability in mind using the React ecosystem.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1enwXYWshgKmM0p6eL_g6X1IMcEQBhB9E
+![License](https://img.shields.io/github/license/CastanhoPh/AvalancheSystem?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-Blue?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-Black?style=flat-square&logo=react&logoColor=61DAFB)
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Overview
 
+AvalancheSystem serves as a comprehensive frontend solution for educational institutions or administrative dashboards. It focuses on providing a clean user experience for listing, registering, and managing student profiles.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Note:** This repository focuses exclusively on the client-side (Frontend) implementation.
+
+## Technology Stack
+
+This project leverages a modern, strongly-typed stack to ensure code reliability and maintainability:
+
+* **React:** Component-based UI library.
+* **TypeScript:** Static typing for enhanced code quality.
+* **Vite:** Next-generation frontend tooling for fast build times.
+* **HTML5 & CSS3:** Semantic markup and modern styling.
+
+## Key Features
+
+* **Student Directory:** Comprehensive listing of student data.
+* **Registration System:** Streamlined forms for onboarding new students.
+* **Data Management:** Easy-to-use editing capabilities for existing records.
+* **Responsive Design:** Optimized layout for both desktop and mobile devices.
+* **Data Visualization:** Organized presentation of administrative metrics.
+
+## Project Structure
+
+The codebase follows a modular architecture to support scalability:
+
+```text
+src/
+├── components/     # Reusable UI components
+├── App.tsx         # Root application component
+├── main.tsx        # Application entry point
+├── constants.ts    # Global configuration constants
+├── types.ts        # TypeScript interfaces and type definitions
+└── vite.config.ts  # Vite build configuration
